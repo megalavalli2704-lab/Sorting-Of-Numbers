@@ -7,15 +7,11 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 - Personal Computer  
 - Keil µVision software  
 ---
-## Flowchart 
-
-<img width="1199" height="1312" alt="WhatsApp Image 2026-11-17 at 2 27 40 PM" src="https://github.com/user-attachments/assets/6efd2d85-a2c8-4e2d-9ac9-482857ec6ae1" />
-
-<img width="1199" height="1312" alt="WhatsApp Image 2026-11-17 at 2 27 40 PM (1)" src="https://github.com/user-attachments/assets/79b3f467-b8c7-4f2e-8430-5af0bfeee34d" />
 
 
 
-## Algorithm(ASCENDING ORDER)
+
+## Algorithm (ASCENDING ORDER)
 1. Initialize the register **R7** with count (number of elements).  
 2. Get the first two elements into two registers.  
 3. Compare the two elements:  
@@ -26,6 +22,10 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 6. If **R7 ≠ 0**, repeat from Step 2.  
 7. Otherwise, stop the program.  
 ---
+
+## Flowchart (ASCENDING ORDER)
+
+<img width="1199" height="1312" alt="WhatsApp Image 2026-11-17 at 2 27 40 PM (1)" src="https://github.com/user-attachments/assets/79b3f467-b8c7-4f2e-8430-5af0bfeee34d" />
 
 ## Program (Ascending order)
 
@@ -67,7 +67,7 @@ END
 
 ---
 
-## Algorithm(Descending order)
+## Algorithm (Descending order)
 1. Initialize the register **R7** with count.  
 2. Get first two elements in two registers.  
 3. Compare the two elements of data:  
@@ -79,6 +79,11 @@ END
    - If **No**, repeat the process from Step 2.  
    - If **Yes**, stop the program.  
 ---
+
+## Flowchart (Descending order)
+
+<img width="1199" height="1312" alt="WhatsApp Image 2026-11-17 at 2 27 40 PM" src="https://github.com/user-attachments/assets/6efd2d85-a2c8-4e2d-9ac9-482857ec6ae1" />
+
 ## Program (Descending order)
 
 ```asm
